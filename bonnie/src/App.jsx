@@ -6,9 +6,9 @@ export default function App() {
 
   const notes = [
     "Every moment with you feels magical ✨",
-    "You make my heart smile 💕",
+    "i'm always proud of you 💕",
     "I feel so lucky to have you 💖",
-    "Forever and always, it’s us 💜",
+    "you are always special to me 💜",
   ];
 
   const handleNext = () => {
@@ -27,6 +27,7 @@ export default function App() {
         transition={{ duration: 1 }}
       >
          A Special Letter for You 
+         bonnie
       </motion.h1>
 
       {/* Envelope */}
@@ -82,7 +83,7 @@ export default function App() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
-          💜 I Love You Forever 💜
+          💜 I Love You 💜
         </motion.p>
       )}
     </div>
